@@ -24,7 +24,7 @@ namespace Multitudes
         private static RunInstanceReturnInt origLivingPlayerCountGetter;
         private static RunInstanceReturnInt origParticipatingPlayerCountGetter;
  
-        public static int Multiplier
+        public static decimal Multiplier
         {
             get => MultiplierConfig.Value;
             protected set => MultiplierConfig.Value = value;
